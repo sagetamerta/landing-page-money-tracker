@@ -78,7 +78,7 @@
 						</div>
 
 						<div class="cta-button">
-							<button class="button-primary">Track now</button>
+							<button class="button-primary text-semibold">Track now</button>
 						</div>
 					</div>
 					<div class="container-main-hero">
@@ -208,17 +208,23 @@
 			<div class="container footer-section">
 				<h2>ProfitPal</h2>
 				<div class="footer-content">
-					<form action="https://formspree.io/f/xnqoqzqz" method="POST">
+					<form id="emailForm">
 						<div class="form-control">
 							<label for="email">Updates right to your Inbox</label>
 							<div class="form-input-container">
 								<input
 									type="email"
 									name="email"
-									id="email"
+									id="emailInput"
 									placeholder="Enter your email"
 								/>
 								<button class="button-primary" type="submit">Send</button>
+							</div>
+							<div class="alert-success" id="successMessage">
+								<p class="text-white">Thank you for subscribing!</p>
+							</div>
+							<div class="alert-error" id="failedMessage">
+								<p class="text-white">Please enter a valid email address.</p>
 							</div>
 						</div>
 					</form>
@@ -231,5 +237,6 @@
 				</div>
 			</div>
 		</footer>
+		<script src="script.js"></script>
 	</body>
 </html>
