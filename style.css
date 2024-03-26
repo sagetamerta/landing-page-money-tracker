@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bg-primary {
+    background-color: #2b2b2b;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+.text-semibold {
+    font-weight: 600;
+}
+
+
+/* Header */
+.header {
+    padding: 20px 50px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-text {
+    font-size: 24px;
+}
+
+/* Navigation */
+.auth {
+    display: flex;
+    gap: 18px;
+}
+
+/* Button */
+.button-primary {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.button-primary:hover {
+    background-color: #0056b3;
+    transition: 200ms all;
+}
+.button-outline {
+    padding: 8px 16px;
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.button-outline:hover {
+    background-color: #007bff;
+    color: #fff;
+    transition: 200ms all;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    padding: 72px 100px;
+    justify-content: space-between;
+    gap: 60px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+}
+.hero-text h2 {
+    font-size: 42px;
+    color: #fff;
+    line-height: 1.35;
+}
+.hero-text p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+}
+.hero-main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 28px 0px;
+}
+
+/* CTA Button */
+.cta-button {
+    margin-top: 60px;
+}
+
+.cta-button button {
+    padding: 12px 36px;
+    font-size: 18px;
+}
+
+
+/* Container Hero */
+.container-main-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-hero {
+    background-color: #4b4a4a;
+    border-radius: 12px;
+}
+
+.container-hero img {
+    width: 420px
+}
+
+/* Container Brand */
+.container-main-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 72px;
+
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.container-brand-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-brand-desktop img {
+    width: 720px;
+}
+.container-brand-mobile {
+    display: none;
+}
+
+/* Container Preview */
+.container-main-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FDF5DF;
+    border-radius: 20px;
+}
+.container-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-preview img{
+    width: 1080px;
+}
+
+/* Container Icon */
+.container-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-icon img {
+    width: 70px;
+}
+
+
+/* Content Section */
+.first-section {
+    padding: 0 100px;
+}
+.second-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.third-section {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+/* Card */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    border-radius: 12px;
+}
+.card-main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.card-description {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Container Testimony */
+.container-main-testimony {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 160px;
+
+    background: #BFAFF2;
+    border-radius: 20px;
+}
+.container-testimony {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.container-profile-testimony {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container-profile-testimony img {
+    width: 100px;
+    border-radius: 50%;
+}
+.testimony {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.testimony-profile-container {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    gap: 20px;
+}
+.testimony-profile-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.testimony-profile-text cite {
+    font-size: 18px;
+}
+
+/* Footer */
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    padding: 72px 100px;
+    gap: 24px;
+}
+.footer-section h2 {
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+}
+.footer-section form {
+    width: auto;
+}
+.footer-section .footer-content {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    justify-content: space-between;
+}
+.footer-section .terms-policy {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 16px;
+    align-items: end;
+}
+.footer-section .form-input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+/* Footer Form */
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-section label {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+}
+.footer-section [type="email"] {
+    padding: 12px 32px;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #333333;
+}
+.footer-section [type="email"]::placeholder {
+    color: #fff;
+}
+
+
+/* Media screen */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 33px 20px;
+    }
+
+    .auth {
+        display: none;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        padding: 72px 20px;
+        justify-content: center;
+        gap: 60px;
+    }
+    .hero-main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .hero-text {
+        text-align: center;
+    }
+    .container-hero img {
+        width: 360px;
+    }
+
+    /* Container Brand */
+    .container-main-brand {
+        padding: 42px 20px;
+    }
+    .container-brand-desktop {
+        display: none;
+    }
+    .container-brand-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    .container-brand-mobile img {
+        width: 320px;
+    }
+
+    /* Container Preview */
+    .container-main-preview {
+        padding: 0 20px;
+        border-radius: 8px;
+    }
+    .container-preview img {
+        width: 100%;
+    }
+    
+    /* Container Testimony */
+    .container-main-testimony {
+        padding: 80px 30px;
+        border-radius: 8px;
+    }
+    .testimony-profile-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* Content Section */
+    .first-section {
+        padding: 0 20px;
+    }
+    .second-section {
+        display: flex;
+        justify-content: center;
+        padding: 60px 20px;
+    }
+    .third-section {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        justify-content: space-evenly;
+    }
+    .fourth-section {
+        display: flex;
+        justify-content: center;
+        padding: 60px 20px;
+    }
+    
+    /* Footer */
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+        padding: 72px 20px;
+        text-align: left;
+        gap: 24px;
+    }
+    .footer-section form {
+        width: 100%;
+    }
+    .footer-section .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-section .terms-policy {
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-section .form-input-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
