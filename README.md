@@ -2,6 +2,11 @@
 
 ![Money Tracker Logo](https://raw.githubusercontent.com/sagetamerta/landing-page-money-tracker/main/img/dollar-icon.png)
 
+## Shoutout
+
+- UI Design By [Anima App Team](https://animaapp.com)
+- Figma Design [Saas Landing Page Template](https://www.figma.com/community/file/1091046863319888542/saas-landing-page-template-landing-page-template-ready-to-export-to-html-landing-page-for-saas)
+
 ## Overview
 
 Landing Page Money Tracker is a web page that showcase features from the app of ProfitPal. ProfitPal is a personal finance management app that helps users track their income and expenses, set budgets, and visualize their financial data. This landing page provides an overview of the app's key features and benefits, encouraging visitors to sign up for an account.
