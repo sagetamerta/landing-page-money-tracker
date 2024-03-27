@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
 				// Hide success message after 3 seconds
 				setTimeout(function () {
 					successMessage.style.display = "none";
-				}, 3000);
-			}, 1000);
+				}, 2000);
+			}, 500);
 		} else {
 			failedMessage.style.display = "block";
 

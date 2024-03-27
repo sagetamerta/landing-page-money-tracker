@@ -91,6 +91,7 @@ a {
     border: 0;
     border-radius: 8px;
     cursor: pointer;
+    font-size: 16px;
 }
 .button-primary:hover {
     background-color: #0056b3;
@@ -350,11 +351,12 @@ a {
     position: relative;
 }
 .footer-section label {
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     text-align: left;
 }
 .footer-section [type="email"] {
+    font-size: 16px;
     padding: 12px 24px;
     color: #fff;
     border-radius: 8px;
@@ -394,7 +396,7 @@ a {
         text-align: center;
     }
     .container-hero img {
-        width: 360px;
+        width: 300px;
     }
 
     /* Container Brand */
@@ -411,7 +413,7 @@ a {
         gap: 24px;
     }
     .container-brand-mobile img {
-        width: 320px;
+        width: 240px;
     }
 
     /* Container Preview */
